@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.page{
+    width: 1000px;
+    margin: 45px auto 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: #1f1534;
+    opacity: 0.5;
+}
+
+a:hover{
+    font-weight: bold;
+    opacity:1;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 49px;
+    width: 489px;
+}
+
+h1 span{
+    color: #89C5CC;
+    font-weight: bold;
+}
+
+h1,ul{
+    font-family: 'Mulish',sans-serif;
+}
+
+p{
+    color: #7D7987;
+    margin-bottom: 40px 0;
+}
+
+button{
+    background-color: #69B99D;
+    text-transform: uppercase;
+    border: 0;
+    color: #fff;
+    padding: 1em;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #366152;
+}
+
+footer{
+   text-align: center;
+   font-size: 14px;
+   margin-top: 50px;
+   color: #000;
+}
+
+footer a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
